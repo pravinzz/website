@@ -1,0 +1,17 @@
+.body{
+    background-color: rgb(244 245 247);
+}
+.spinner {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(15, 14, 14, 0.05);
+    }
+    .spinner-load{
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(255, 255, 255, 0.05);
+      }

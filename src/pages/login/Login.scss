@@ -1,0 +1,49 @@
+.login-page-container {
+    height: 100vh !important;
+    .left-container {
+        background-color: white;
+        width: 50%;
+
+        height: 930px;
+
+        .input-align {
+            width: 100%;
+            height: 44px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+    }
+
+    .alignments {
+        margin-left: 154px;
+        margin: 209px;
+    }
+
+    .container-one {
+        margin-right: 100px;
+
+        .align {
+            border-radius: 10px;
+            border: 1px solid black;
+            width: 50%;
+            height: 40px;
+        }
+    }
+    .ant-btn-primary{
+        margin: 10px;
+        border-radius: 17px;
+        height: 36px;
+        left: 166px;
+    }
+}
+.signup-align{
+    color: black;
+}
+.card-align {
+
+    border-radius: 20px;
+    margin-bottom: 100px !important;
+    // background-color: aqua;
+    // background-image: url('https://cdn11.bigcommerce.com/s-e6b77/images/stencil/500x659/products/12549/12929/jack-daniels-tennessee-fire-liqueur__70491.1610373265.jpg?c=2');
+
+}

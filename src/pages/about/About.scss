@@ -1,0 +1,43 @@
+.main-container-about{
+    background-image:url('https://ewm.swiss/application/files/3616/0516/5661/Web_Design_EWM_SA_Digital_Agency_Geneva.jpg'); 
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-zoom: 10;
+    position: relative;
+
+}
+h1{
+    align-items: center;
+    // margin-left: 216px;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Nunito;
+}
+h3{
+    // margin-left: 216px;
+
+}
+
+.bg-color{
+    background-color: white;
+}
+
+.interval{
+    height: 100px;
+    margin-top: 0%;
+    margin-left: 0;
+    width: 100%;
+}
+.title{
+    align-items: center;
+    margin-left: 781px;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Nunito;
+}
+.step-align{
+    margin-left: 750px;
+    margin: 0px 0px 0px 0px;
+}

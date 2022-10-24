@@ -1,0 +1,62 @@
+.signup-page-container {
+
+    .left-container {
+        background-color: white;
+        width: 50%;
+        height: auto;
+
+    }
+
+    .container-one {
+        height: 850px;
+        
+    }
+    .form-align{
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+    .align {
+        width: 50%;
+        // margin: 236px 146px;
+        margin-left: 100px !important;
+        margin-top: 38%;
+        height: 40px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+    .align1 {
+        width: 50%;
+        // margin: 236px 146px;
+        margin-left: 100px !important;
+        margin-top: 38%;
+        height: 40px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+    h1{
+        text-transform: uppercase;
+    }
+
+    body {
+        background-color: #ececec !important;
+    }
+    .card-align1{
+        background-color: #4266B4;
+        border-radius: 20px;
+
+    }
+    .form-align-mobile{
+        width: 300px;
+        border-radius: 10px;
+        height: 40px;
+        border: 1px solid black;
+
+    }
+    .ant-btn-primary {
+        border-radius: 20px;
+        margin-left: 74%;
+        border: #4266B4;
+        background-color: #4266B4;
+      }
+    
+}

@@ -1,0 +1,242 @@
+.main-container {
+    // background-image: url(https://wallpaperaccess.com/full/115112.jpg);
+    // background-image: url(https://i.pinimg.com/originals/b6/bc/88/b6bc88804c30cf2d6e39b5e862fabfd2.jpg);
+    // background-image: url(https://ewm.swiss/application/files/3616/0516/5661/Web_Design_EWM_SA_Digital_Agency_Geneva.jpg);
+    // background-image:url('https://usersnap.com/blog/wp-content/uploads/2017/04/web-design-background.png'); ;
+    // background-image: url(https://media.istockphoto.com/photos/developing-programming-and-coding-technologies-with-website-design-in-picture-id1364358321?b=1&k=20&m=1364358321&s=170667a&w=0&h=PpEXtpe9YpTdAORO2BgW1cKe6I2ZrNr9Sx_lcsPX_XI=);
+
+    .left-container {
+        background-color: #262626;
+        width: 25%;
+        height: 100vh;
+        color: #fff;
+        position: fixed;
+        bottom: 0;
+    }
+
+.horizontalline{
+    
+    border: 2px solid #ffc107;
+}
+
+    .img-div {
+        padding: 10px 20px;
+        margin: -76px 10px;
+        margin-left: 110px;
+        margin-right: auto;
+        padding: 10px 20px;
+
+        .profileimage {
+            border-radius: 100px;
+            margin-top: 80px;
+        }
+    }
+
+    .icons {
+        margin-top: 10pc;
+        text-align: -webkit-right;
+        font-size: 30px;
+
+        .fb-icon:hover{
+            color: #ffc107;
+        }
+
+        .insta-icon:hover{
+            color: #ffc107;
+        }
+
+        .linkedin-icon:hover{
+            color: #ffc107;
+        }
+
+        .twitter-icon:hover{
+            color: #ffc107;
+        }
+    }
+
+    .resume-section {
+        text-align: center;
+        border: 1px solid yellow;
+        border-radius: 20px;
+        margin: 61px 59px 29px;
+        padding: 16px 0px;
+        font-style: italic;
+        font-size: 20px;
+        background-color: #ffc107;
+    }
+
+    .resume-section:hover {
+        text-align: center;
+        border: 1px solid rgb(205, 136, 15);
+        border-radius: 20px;
+        margin: 61px 59px 29px;
+        padding: 16px 0px;
+        font-style: italic;
+        font-size: 20px;
+        background-color: #ff7707f8;
+
+    }
+
+    .downloadword {
+        color: #fff;
+    }
+
+    .downloadword:hover {
+        color: #262626;
+    }
+
+    .right-container {
+        // width: 75%;
+        padding-top: 85px !important;
+        margin-left: 4pc;
+
+        .quotes-div {
+            display: block;
+            margin-top: 30px;
+            text-align: center;
+            font-size: 27px;
+            font-style: italic;
+            font-weight: 600;
+            margin-right: 7pc;          
+        }
+    }
+}
+
+
+
+// about div
+
+.about-div {
+    margin-left: 7pc;
+    margin-right: 15pc;
+    .aboutme {
+        margin-top: 12pc;
+       
+    }
+
+    .horizontalline {
+        width: 115%;
+        text-align: center;
+        
+
+    }
+
+    .paragraph-div{
+        font-size: 30px;
+        font-style: italic;
+    }
+}
+
+
+
+// resume div
+
+.resume-div{
+    margin-left: 7pc;
+    margin-right: 15pc;
+
+    .details-div{
+        margin-top: 12pc;
+    }
+
+    .resume-title{
+        font-size: 24px;
+        font-style: italic;
+    }
+}
+
+
+
+// skill div
+
+
+.skill-div{
+    margin-left: 7pc;
+    margin-right: 15pc;
+
+    .skill-title-div{
+        margin-top: 12pc;
+    }
+
+    .skill-detail-div{
+        font-size: 24px;
+        font-style: italic;
+
+       
+    }
+}
+
+
+// education-div
+
+.education-div{
+    margin-left: 7pc;
+    margin-right: 15pc;
+
+    .education-title-div{
+        margin-top: 12pc;
+    }
+
+    .edu-detsils-div{
+        font-size: 24px;
+        font-style: italic;
+    }
+}
+
+
+// hoobies-div
+
+.hoobies-div{
+    margin-left: 7pc;
+    margin-right: 15pc;
+
+    .hobbies-title-div{
+        margin-top: 12pc;
+    }
+
+    .hobby-details-div{
+        font-size: 24px;
+        font-style: italic;
+    }
+}
+
+
+// contact-div
+
+.contact-div{
+    margin-left: 7pc;
+    margin-right: 15pc;
+    margin-top: 12pc;
+
+    .contact-title{
+        margin-top: 12pc;
+    }
+
+    .contact-details-div{
+        font-size: 24px;
+        font-style: italic;
+    }
+}
+
+
+// footer-div
+
+.footer-div{
+    margin-left: 7pc;
+    margin-right: 15pc;
+.horizontalline-footer{
+    margin-top: 15pc;
+    border-color: #ffc107;
+   
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+}
+}
+
+
+@media screen and (max-width: 1200px) {
+
+}

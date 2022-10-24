@@ -1,0 +1,100 @@
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    // border-bottom: 1px solid #ccc !important;
+    // background-color: #607d8b; 
+
+}
+
+
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+    /* text-align: left; */
+    /* text-align: end; */
+    margin-left: 28pc;
+    padding-top: 13px;
+}
+
+
+.nav_active{
+    background-color: aqua;
+}
+.home,
+.skills,
+.contact,
+.about,
+.profile,
+.signup {
+
+    text-decoration: none;
+    color: rgb(188, 202, 33);
+    font-size: 23px;
+    font-style: italic;
+
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+
+.profile {
+    font-size: 25px !important;
+
+}
+
+// .ant-dropdown-menu {
+//     position: relative;
+//     margin-left: -8px;
+//     padding: 6px 13px;
+//     text-align: left;
+//     list-style-type: none;
+//     background-color: #fff;
+//     background-clip: padding-box;
+//     border-radius: 2px;
+//     outline: none;
+//     box-shadow: 0 3px 6px -4px RGB(0 0 0 / 12%), 0 6px 16px 0 RGB(0 0 0 / 8%), 0 9px 28px 8px RGB(0 0 0 / 5%)
+// }
+
+.home :active {
+    color: #ffe27a;
+    outline-width: 50px;
+}
+
+.skills :active {
+    color: #ffe27a;
+    outline-width: 50px;
+}
+
+.about :active {
+    color: #ffe27a;
+    outline-width: 50px;
+}
+
+.contact :active {
+    color: #ffe27a;
+    outline-width: 50px;
+}
+
+.profile :active {
+    color: #ffe27a;
+    outline-width: 50px;
+}
+
+
+.title-name{
+    text-align: left;
+}
+
+/* .signup{
+    border: 1px solid rgb(9, 243, 48);
+    border-radius: 15px;
+} */
