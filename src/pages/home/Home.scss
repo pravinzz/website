@@ -20,12 +20,16 @@
 }
 
     .img-div {
-        padding: 10px 20px;
-        margin: -76px 10px;
-        margin-left: 110px;
-        margin-right: auto;
-        padding: 10px 20px;
+        // margin: -76px 10px;
+        // margin-left: 110px;
+        // margin-right: auto;
+        // padding: 10px 20px;
 
+
+         display: block;
+         width: 50%;
+         margin-left: auto;
+        margin-right: auto;
         .profileimage {
             border-radius: 100px;
             margin-top: 80px;
@@ -33,7 +37,7 @@
     }
 
     .icons {
-        margin-top: 10pc;
+        margin-top: 3pc;
         text-align: -webkit-right;
         font-size: 30px;
 
@@ -56,34 +60,56 @@
 
     .resume-section {
         text-align: center;
+        // border: 1px solid yellow;
+        // border-radius: 20px;
+        // margin: 61px 59px 29px;
+        // padding: 16px 0px;
+        // font-style: italic;
+        // font-size: 20px;
+        // background-color: #ffc107;
+
+
+        text-align: center;
         border: 1px solid yellow;
         border-radius: 20px;
-        margin: 61px 59px 29px;
-        padding: 16px 0px;
+        margin: 53px 51px;
         font-style: italic;
         font-size: 20px;
         background-color: #ffc107;
+        width: 79%;
+        height: 57px;
+
+
+        .download-word{
+            margin: 12px 0px 0px 11px;
+        }
     }
 
     .resume-section:hover {
+        // text-align: center;
+        // border: 1px solid rgb(205, 136, 15);
+        // border-radius: 20px;
+        // margin: 61px 59px 29px;
+        // padding: 16px 0px;
+        // font-style: italic;
+        // font-size: 20px;
+        // background-color: #ff7707f8;
+
         text-align: center;
         border: 1px solid rgb(205, 136, 15);
         border-radius: 20px;
-        margin: 61px 59px 29px;
-        padding: 16px 0px;
+        margin: 53px 51px;
         font-style: italic;
         font-size: 20px;
         background-color: #ff7707f8;
+        width: 79%;
+        height: 57px;
 
     }
 
-    .downloadword {
-        color: #fff;
-    }
+  
 
-    .downloadword:hover {
-        color: #262626;
-    }
+   
 
     .right-container {
         // width: 75%;
@@ -240,3 +266,6 @@ p{
 @media screen and (max-width: 1200px) {
 
 }
+
+
+

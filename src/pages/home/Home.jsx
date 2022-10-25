@@ -1,11 +1,10 @@
 import React from 'react'
 import './Home.scss'
-import { Card, Col, Row, Space, Input } from 'antd';
+import { Col, Button, Row } from 'antd';
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
-import { Divider } from 'antd';
 import Profileimage from '../images/profileimage.jpeg'
 import Resume from '../files/Pravin_Resume.pdf'
-import Navbar from '../../components/Navbar/Navbar'
+// import Navbar from '../../components/Navbar/Navbar'
 import { DownloadOutlined } from '@ant-design/icons';
 
 const Home = () => {
@@ -52,10 +51,19 @@ const Home = () => {
             </div>
             {/* download cv */}
 
-            <div class="resume-section">
+            {/* <div class="resume-section">
               <a href={Resume} icon={<DownloadOutlined />} class="download-btn" target="_blank" download="Pravin_Resume.pdf">
-                <span >DOWNLOAD CV</span>
+                DOWNLOAD CV
               </a>
+              <Button href={Resume} type="primary" class="resume-section" icon={<DownloadOutlined />} download="Pravin_Resume.pdf">
+                Download
+              </Button>
+            </div> */}
+
+            <div className=''>
+              <Button href={Resume} type='primary' className='resume-section' icon={<DownloadOutlined />} download="Pravin_Resume.pdf">
+             <span className='download-word'>DOWNLOAD CV</span>   
+              </Button>
             </div>
           </div>
         </Col>
@@ -152,7 +160,7 @@ const Home = () => {
 
               <div className='edu-detsils-div'>
 
-                <h3>College Bsc computerscience, College of Bharath University, Chennai </h3>
+                <h3> Bsc computerscience, College of Bharath University, Chennai </h3>
                 <p>June 2018 - July 2021</p>
                 <h3>Highschool , Vidhya Matric Highschool, Chennai
                 </h3>
