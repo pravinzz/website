@@ -281,22 +281,39 @@
     animation-name: heartbeat;
     animation-duration: 0.6s;
     animation-timing-function: ease;
-    animation-iteration-count: 2;
+    animation-iteration-count: 1;
     font-size: 50px;
     color: #ffc107;
 }
 
 @keyframes heartbeat{
 
-0%, 50%, 100% {
-transform: scale(1);
-}
-25%{
-    transform: scale(1.1);
-}
-75%{
-    transform: scale(1.05);
-}
+// 0%, 50%, 100% {
+// transform: scale(1);
+// }
+// 25%{
+//     transform: scale(1.1);
+// }
+// 75%{
+//     transform: scale(1.05);
+// }
+
+
+// comment up to use this
+
+0% {
+    transform: rotate(0deg)
+  }
+
+  50% {
+    transform: rotate(180deg)
+  }
+
+  100% {
+    // transform: rotate(360deg)
+  }
+
+
 }
 
 
