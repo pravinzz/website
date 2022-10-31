@@ -132,95 +132,95 @@
 
 
 
-import React from 'react'
-import './About.scss';
-import Navbar from '../../components/Navbar/Navbar';
-import furtimimage from '../images/furtimimage.jpg'
-import beach from '../images/blue.jpg'
-import { Col, Row } from 'antd';
-import { Divider, Steps } from 'antd';
-import { useState } from 'react';
+// import React from 'react'
+// import './About.scss';
+// import Navbar from '../../components/Navbar/Navbar';
+// import furtimimage from '../images/furtimimage.jpg'
+// import beach from '../images/blue.jpg'
+// import { Col, Row } from 'antd';
+// import { Divider, Steps } from 'antd';
+// import { useState } from 'react';
 
 
-const About = () => {
-  const { Step } = Steps;
+// const About = () => {
+//   const { Step } = Steps;
 
 
-  const [current, setCurrent] = useState(0);
+//   const [current, setCurrent] = useState(0);
 
-  const onChange = (value) => {
-    console.log('onChange:', current);
-    setCurrent(value);
-  };
-
-
-
+//   const onChange = (value) => {
+//     console.log('onChange:', current);
+//     setCurrent(value);
+//   };
 
 
 
 
-  return (
-    <div className='main-container-about'>
-      <Navbar />
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <div className='container-one'>
 
 
-        <Row>
-          <Col span={13} className='bg-color'>
-            <div>
-              <h1>About us </h1>
-              <h3>
-                Furtim is a software development and software consultancy company, pioneer in design and <br />
-                delivering software solutions using latest and cutting-edge technologies.
-                <br />
-                <br />
-                At Furtim, we partner with you to drive digital transformation that will power efficiency, drive <br />
-                growth and build credibility
-                for your businesses. We do this by parterning with you to deliver smart technology <br />
-                solutions that are aligned to your specific needs.
-                <br />
-                <br />
-                At Furtim, our team is passionate about technology and the positive impact it can have on people <br />
-                and organisations. Yes, it is one thing to love technology, and at Furtim what makes us unique is that <br />
-                we focus on getting to know you and your business first. Once we understand you and your business we can <br />
-                then get to work on finding a technology solution that best suits your needs. That is where the fun begins!
-              </h3>
-            </div>
-          </Col>
-          <Col span={1} className='bg-color'></Col>
-          <Col span={10} className='bg-color'>
-            <img src={furtimimage} />
-          </Col>
-        </Row>
-        {/* firsthalf done*/}
-        <div >
-          <img src={beach} className='interval' />
-        </div>
 
-        <h1 className='title'>THE STORY</h1>
-        <br />
-        <br />
-        <div className='step-align'>
-          <Steps progressDot current={1} direction="vertical">
-            <Step title="Finished" description="This is a description. This is a description." />
-            <Step title="Finished" description="This is a description. This is a description." />
-            <Step title="In Progress" description="This is a description. This is a description." />
-            <Step title="Waiting" description="This is a description." />
-            <Step title="Waiting" description="This is a description." />
-          </Steps>
-        </div>
-      </div>
+//   return (
+//     <div className='main-container-about'>
+//       <Navbar />
+
+//       <br />
+//       <br />
+//       <br />
+//       <br />
+//       <br />
+//       <br />
+//       <div className='container-one'>
 
 
-    </div>
-  )
-}
+//         <Row>
+//           <Col span={13} className='bg-color'>
+//             <div>
+//               <h1>About us </h1>
+//               <h3>
+//                 Furtim is a software development and software consultancy company, pioneer in design and <br />
+//                 delivering software solutions using latest and cutting-edge technologies.
+//                 <br />
+//                 <br />
+//                 At Furtim, we partner with you to drive digital transformation that will power efficiency, drive <br />
+//                 growth and build credibility
+//                 for your businesses. We do this by parterning with you to deliver smart technology <br />
+//                 solutions that are aligned to your specific needs.
+//                 <br />
+//                 <br />
+//                 At Furtim, our team is passionate about technology and the positive impact it can have on people <br />
+//                 and organisations. Yes, it is one thing to love technology, and at Furtim what makes us unique is that <br />
+//                 we focus on getting to know you and your business first. Once we understand you and your business we can <br />
+//                 then get to work on finding a technology solution that best suits your needs. That is where the fun begins!
+//               </h3>
+//             </div>
+//           </Col>
+//           <Col span={1} className='bg-color'></Col>
+//           <Col span={10} className='bg-color'>
+//             <img src={furtimimage} />
+//           </Col>
+//         </Row>
+//         {/* firsthalf done*/}
+//         <div >
+//           <img src={beach} className='interval' />
+//         </div>
 
-export default About
+//         <h1 className='title'>THE STORY</h1>
+//         <br />
+//         <br />
+//         <div className='step-align'>
+//           <Steps progressDot current={1} direction="vertical">
+//             <Step title="Finished" description="This is a description. This is a description." />
+//             <Step title="Finished" description="This is a description. This is a description." />
+//             <Step title="In Progress" description="This is a description. This is a description." />
+//             <Step title="Waiting" description="This is a description." />
+//             <Step title="Waiting" description="This is a description." />
+//           </Steps>
+//         </div>
+//       </div>
+
+
+//     </div>
+//   )
+// }
+
+// export default About

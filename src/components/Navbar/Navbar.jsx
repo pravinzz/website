@@ -34,6 +34,7 @@ const Navbar = () => {
                     </Link>
                 </ul>
             </nav>
+            <hr className='horizontalline-nav' />
         </div>
     )
 }
