@@ -1,0 +1,26 @@
+.nav-container {
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    transition: background 0.3s;
+  }
+  
+  .nav-container.a {
+    background: #DE9B00;
+    color: #EDB205;
+  }
+  
+  .nav-container.b {
+    background: #3EAF6F;
+    color: #4BD389;
+  }
+  
+  .nav-container.c {
+    background: #BE0031;
+    color: #E61753;
+  }
+  
+  .nav-container.d {
+    background: #8E00AC;
+    color: #B32DD2;
+  }
