@@ -14,10 +14,10 @@
         bottom: 0;
     }
 
-.horizontalline{
-    
-    border: 2px solid #ffc107;
-}
+    .horizontalline {
+
+        border: 2px solid #ffc107;
+    }
 
     .img-div {
         // margin: -76px 10px;
@@ -26,10 +26,11 @@
         // padding: 10px 20px;
 
 
-         display: block;
-         width: 50%;
-         margin-left: auto;
+        display: block;
+        width: 50%;
+        margin-left: auto;
         margin-right: auto;
+
         .profileimage {
             border-radius: 100px;
             margin-top: 80px;
@@ -41,19 +42,19 @@
         text-align: -webkit-right;
         font-size: 30px;
 
-        .fb-icon:hover{
+        .fb-icon:hover {
             color: #ffc107;
         }
 
-        .insta-icon:hover{
+        .insta-icon:hover {
             color: #ffc107;
         }
 
-        .linkedin-icon:hover{
+        .linkedin-icon:hover {
             color: #ffc107;
         }
 
-        .twitter-icon:hover{
+        .twitter-icon:hover {
             color: #ffc107;
         }
     }
@@ -80,7 +81,7 @@
         height: 57px;
 
 
-        .download-word{
+        .download-word {
             margin: 12px 0px 0px 11px;
         }
     }
@@ -107,9 +108,9 @@
 
     }
 
-  
 
-   
+
+
 
     .right-container {
         // width: 75%;
@@ -123,7 +124,7 @@
             font-size: 27px;
             font-style: italic;
             font-weight: 600;
-            margin-right: 7pc;          
+            margin-right: 7pc;
         }
     }
 }
@@ -135,19 +136,20 @@
 .about-div {
     margin-left: 7pc;
     margin-right: 15pc;
+
     .aboutme {
         margin-top: 12pc;
-       
+
     }
 
     .horizontalline {
         width: 115%;
         text-align: center;
-        
+
 
     }
 
-    .paragraph-div{
+    .paragraph-div {
         font-size: 30px;
         font-style: italic;
     }
@@ -157,15 +159,15 @@
 
 // resume div
 
-.resume-div{
+.resume-div {
     margin-left: 7pc;
     margin-right: 15pc;
 
-    .details-div{
+    .details-div {
         margin-top: 12pc;
     }
 
-    .resume-title{
+    .resume-title {
         font-size: 24px;
         font-style: italic;
     }
@@ -176,34 +178,34 @@
 // skill div
 
 
-.skill-div{
+.skill-div {
     margin-left: 7pc;
     margin-right: 15pc;
 
-    .skill-title-div{
+    .skill-title-div {
         margin-top: 12pc;
     }
 
-    .skill-detail-div{
+    .skill-detail-div {
         font-size: 24px;
         font-style: italic;
 
-       
+
     }
 }
 
 
 // education-div
 
-.education-div{
+.education-div {
     margin-left: 7pc;
     margin-right: 15pc;
 
-    .education-title-div{
+    .education-title-div {
         margin-top: 12pc;
     }
 
-    .edu-detsils-div{
+    .edu-detsils-div {
         font-size: 24px;
         font-style: italic;
     }
@@ -212,15 +214,15 @@
 
 // hoobies-div
 
-.hoobies-div{
+.hoobies-div {
     margin-left: 7pc;
     margin-right: 15pc;
 
-    .hobbies-title-div{
+    .hobbies-title-div {
         margin-top: 12pc;
     }
 
-    .hobby-details-div{
+    .hobby-details-div {
         font-size: 24px;
         font-style: italic;
     }
@@ -229,16 +231,16 @@
 
 // contact-div
 
-.contact-div{
+.contact-div {
     margin-left: 7pc;
     margin-right: 15pc;
     margin-top: 12pc;
 
-    .contact-title{
+    .contact-title {
         margin-top: 12pc;
     }
 
-    .contact-details-div{
+    .contact-details-div {
         font-size: 24px;
         font-style: italic;
     }
@@ -247,25 +249,73 @@
 
 // footer-div
 
-.footer-div{
+.footer-div {
     margin-left: 7pc;
     margin-right: 15pc;
-.horizontalline-footer{
-    margin-top: 15pc;
-    border-color: #ffc107;
-   
-}
 
-p{
-    text-align: center;
-    font-size: 18px;
-}
-}
+    .horizontalline-footer {
+        margin-top: 15pc;
+        border-color: #ffc107;
 
+    }
 
-@media screen and (max-width: 1200px) {
-
+    p {
+        text-align: center;
+        font-size: 18px;
+    }
 }
 
 
 
+// Back top animation 
+
+.backtop{
+    cursor: pointer;
+    transition: background-color 0.4s, color 0.4s;
+    transition-timing-function: ease;
+    font-size: 50px;
+    color: #ffc107;
+}
+
+.backtop:hover{
+    animation-name: heartbeat;
+    animation-duration: 0.6s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    font-size: 50px;
+    color: #ffc107;
+}
+
+@keyframes heartbeat{
+
+// 0%, 50%, 100% {
+// transform: scale(1);
+// }
+// 25%{
+//     transform: scale(1.1);
+// }
+// 75%{
+//     transform: scale(1.05);
+// }
+
+
+// comment up to use this
+
+0% {
+    transform: rotate(0deg)
+  }
+
+  50% {
+    transform: rotate(180deg)
+  }
+
+  100% {
+    // transform: rotate(360deg)
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 1200px) {}
